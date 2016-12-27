@@ -18,7 +18,7 @@ class Register extends CI_Controller
     }
     public function employee(){
         $data = [
-            'page_content'  => $this->load->view('register', ' ',  true)
+            'page_content'  => $this->load->view('register/register', ' ',  true)
         ];
         $this->parser->parse('master',$data);
     }
@@ -75,7 +75,7 @@ class Register extends CI_Controller
         if ($this->form_validation->run() == FALSE)
         {
             $data = [
-                'page_content' => $this->load->view('register','', true)
+                'page_content' => $this->load->view('register/register','', true)
             ];
             $this->parser->parse('master',$data);
         }

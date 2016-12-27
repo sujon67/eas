@@ -4,9 +4,38 @@
 // $(function(){
 //     $("#date_picker1, #date_picker2").datepicker();
 // });
-$(function () {
+
+
+$(document).ready(function() {      //collapse navbar
+
+    $(".button-collapse").sideNav();
+    $('select').material_select();
+});
+
+$(function () {                      //date picker
     $("#date_picker1").pickadate();
 })
+
+
+//Dynamic table create or delete for allowance
+
+var i = 0 ; //global varriable
+
+$("#create").click(function () {
+    i++;
+    var row = "<tr style='border-color: black' id='tRow"+i+"'> <td contenteditable ></td><td contenteditable ></td></tr>";
+    $('table').append(row);
+});
+
+$("#delete").click(function () {
+    if(i != 0 && i > 0){
+        var k = i-1;
+        $("#tRow"+k).remove();
+        i--;
+    }else
+        $("#Rwarn").notify("Last row can't be removed","warn",{position:"center"});
+})
+
 
 $('#verify , #password').keyup(function(){
     if($("#password").val() == '' || $("#verify").val() == ''){

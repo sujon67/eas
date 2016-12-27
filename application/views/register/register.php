@@ -1,5 +1,6 @@
 <div class="row">
     <form class="col m12 s12">
+        <div class="col s3"></div>
     <div class="col m6">
         <h4>Personel information</h4>
         <div class="row">
@@ -54,34 +55,8 @@
                 </div>
             </div>
         </div>
+        <button class="btn right">Submit</button>
     </div>
-        <div class="col m1"></div>
-    <div class="col m5">
-        <h4>Salary and allowence</h4>
-        <div class="row">
-            <div class="input-field col s12">
-                <i class="mdi mdi-account-network prefix"></i>
-                <select id="designation">
-                    <option value="" disabled selected>Choose your designation</option>
-                    <option value="1">SPO</option>
-                    <option value="2">PO</option>
-                    <option value="3">Officer</option>
-                    <option value="4">Jr Officer</option>
-                    <option value="5">C cum C</option>
-                    <option value="6">Care taker</option>
-                    <option value="7">Guard</option>
-                    <option value="8">Helper</option>
-                </select>
-            </div>
-        </div>
-         <div id="salaAllow"></div>
-        <div class="row">
-            <div class="input-field col s12">
-                <i class="">Total</i>
-                <input type="text" id="total" value="" readonly>
-
-            </div>
-        </div>
-    </div>
+        <div class="col s3"></div>
     </form>
 </div>
