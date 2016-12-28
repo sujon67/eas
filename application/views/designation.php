@@ -9,7 +9,7 @@
 <div class="row">
     <form class="col m12 s12">
         <div class="col m3 "></div>
-        <div class="col m6 s12" style="background-color: wheat">
+        <div class="col m6 s12 basic">
 
             <!--Basic section-->
             <div class="row">
@@ -52,6 +52,7 @@
                 <div id="Rwarn" class="center"></div>
 
                 <!--Buttons for creating or removing new row-->
+                <div class="row sm2"></div>
                 <div class="row">
                     <a id="create" class="btn left">+</a>
                     <a id="delete" class="btn right">-</a>

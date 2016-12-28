@@ -1,7 +1,7 @@
 <div class="row">
     <form class="col m12 s12">
         <div class="col s3"></div>
-    <div class="col m6">
+    <div class="col m6 personelInfo">
         <h4>Personel information</h4>
         <div class="row">
             <div class="input-field col s12">

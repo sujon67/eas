@@ -1,4 +1,19 @@
-.bill, th, td{
-    background-color: #1e347b;
+.personelInfo{
+    background-color: lightgoldenrodyellow;
+}
+.basic{
+    background-color: wheat;
+}
+.bill, .th, .td{
+    background-color: palegreen;
     border: 2px solid black;
+}
+.tBill{
+    background-color: #00C853;
+}
+.tDeduct{
+    background-color: yellowgreen;
+}
+.sum{
+    background-color: lightpink;
 }
